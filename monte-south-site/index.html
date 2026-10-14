@@ -1,0 +1,1061 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Monte South, Byculla, South Mumbai | Price, Floor Plans and Brochure</title>
+<meta name="description" content="Price, amenities, location and brochure. Enquire now for the latest offers.">
+<!-- Ad landing page: keep out of organic search. Remove this line if you also want it indexed. -->
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#0B2230">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="assets/hero-1-m.webp" media="(max-width:819px)">
+<link rel="preload" as="image" href="assets/hero-1.webp" media="(min-width:820px)">
+<style>
+:root{
+  --sea:#0B2230; --sea-2:#123246; --sea-3:#1B4660; --mist:#F2F6F6; --paper:#fff;
+  --ink:#10222D; --slate:#55666F; --line:#D5E0E2; --marigold:#F0A92E; --marigold-d:#C98512; --ok:#1E7A55; --err:#B3261E;
+  --display:"Bricolage Grotesque","Trebuchet MS",system-ui,sans-serif;
+  --body:"Figtree",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:64px;-webkit-text-size-adjust:100%}
+body{font-family:var(--body);font-size:16px;line-height:1.55;color:var(--ink);background:var(--mist);padding-bottom:calc(76px + env(safe-area-inset-bottom,0px))}
+img,svg{display:block;max-width:100%}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--marigold);outline-offset:2px}
+.wrap{width:100%;max-width:1100px;margin:0 auto;padding:0 20px}
+.sample-banner{background:var(--marigold);color:var(--sea);font-weight:600;font-size:13px;text-align:center;padding:6px 12px}
+
+/* header */
+.top{position:sticky;top:0;z-index:30;background:var(--sea);color:#fff;border-bottom:1px solid rgba(255,255,255,.08)}
+.top .wrap{display:flex;align-items:center;gap:12px;height:60px}
+.brand{font-family:var(--display);font-weight:700;font-size:18px;text-decoration:none;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0;flex:1}
+.top-call{white-space:nowrap;flex:0 0 auto;display:inline-flex;align-items:center;gap:8px;color:#fff;text-decoration:none;font-weight:600;font-size:15px;padding:8px 14px;border:1px solid rgba(255,255,255,.35);border-radius:999px}
+.top-call svg{width:16px;height:16px;fill:var(--marigold)}
+.menu-btn{flex:0 0 auto;width:42px;height:42px;background:none;border:1px solid rgba(255,255,255,.35);border-radius:8px;color:#fff;font-size:20px;cursor:pointer}
+nav.menu{display:none;position:absolute;left:0;right:0;top:60px;background:var(--sea-2);padding:8px 20px 16px}
+nav.menu.open{display:block}
+nav.menu a{display:block;padding:12px 0;text-decoration:none;color:#fff;border-bottom:1px solid rgba(255,255,255,.1);font-weight:500}
+
+/* hero slider */
+.hero{position:relative;color:#fff;background:var(--mist)}
+.stage{position:relative;background:var(--sea)}
+.slides{position:relative;height:440px;overflow:hidden;background:linear-gradient(180deg,var(--sea),var(--sea-2) 60%,#2B5C70)}
+.slide{position:absolute;inset:0;opacity:0;transition:opacity .8s ease}
+.slide.on{opacity:1}
+.slide img{width:100%;height:100%;object-fit:cover}
+.slides::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(11,34,48,.2) 30%,rgba(11,34,48,.88));pointer-events:none}
+.ph{display:flex;align-items:center;justify-content:center;text-align:center;padding:12px;font-size:13px;font-weight:600;color:#9CC0CC;background:repeating-linear-gradient(135deg,#123246,#123246 12px,#15394f 12px,#15394f 24px);border:1px dashed #4F7F93;border-radius:inherit}
+.slide .ph{position:absolute;inset:0;border:0;border-radius:0;align-items:flex-start;justify-content:flex-end;padding:20px 16px}
+.hero-copy{position:absolute;left:0;right:0;bottom:0;z-index:3;padding-bottom:42px}
+.hero h1{font-family:var(--display);font-weight:700;font-size:clamp(32px,9vw,58px);line-height:1.03;letter-spacing:-.6px}
+.hero .tag{margin-top:8px;font-size:17px;color:#D4E3E8;max-width:38ch}
+.hero .from{margin-top:12px;font-size:14px;color:#D4E3E8}
+.hero .from b{display:block;font-family:var(--display);font-size:clamp(24px,6.5vw,34px);color:#fff}
+.hero .actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
+.sl-btn{position:absolute;top:50%;z-index:4;width:40px;height:40px;margin-top:-20px;border:0;border-radius:50%;background:rgba(11,34,48,.55);color:#fff;font-size:20px;cursor:pointer;display:none}
+.sl-prev{left:12px}.sl-next{right:12px}
+.dots{position:absolute;left:0;right:0;bottom:14px;z-index:4;display:flex;gap:8px;justify-content:center}
+.dots button{width:9px;height:9px;border-radius:50%;border:0;background:rgba(255,255,255,.45);cursor:pointer;padding:0}
+.dots button[aria-current=true]{background:var(--marigold);width:22px;border-radius:5px}
+.hero-note{position:absolute;right:14px;top:12px;z-index:4;font-size:11px;color:#fff;opacity:.85}
+.hero-form{padding:20px 0 4px;background:var(--mist)}
+.hero-form .form-card{box-shadow:0 14px 34px -18px rgba(0,0,0,.45);border:1px solid var(--line)}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;height:50px;padding:0 22px;border:0;border-radius:8px;font:inherit;font-weight:600;font-size:16px;cursor:pointer;text-decoration:none}
+.btn-primary{background:var(--marigold);color:var(--sea)}
+.btn-primary:hover{background:var(--marigold-d);color:#fff}
+.btn-ghost{background:transparent;color:#fff;border:1.5px solid rgba(255,255,255,.65)}
+.btn-dark{background:var(--sea);color:#fff}
+.btn-wa{background:#1FA855;color:#fff}
+.btn-line{background:transparent;color:var(--sea);border:1.5px solid var(--sea)}
+.btn-line:hover{background:var(--sea);color:#fff}
+.btn-block{width:100%}
+.btn[disabled]{opacity:.65;cursor:progress}
+.btn[hidden]{display:none}
+
+/* sections */
+section.block{padding:48px 0 6px}
+section.block h2{font-family:var(--display);font-size:clamp(26px,6.4vw,38px);line-height:1.1;letter-spacing:-.4px;margin-bottom:8px}
+section.block .lead{color:var(--slate);max-width:60ch;margin-bottom:22px}
+.note{font-size:13px;color:var(--slate);margin-top:10px}
+
+/* features rail */
+.rail{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;padding:4px 20px 14px;margin:0 -20px;scroll-padding-left:20px;-webkit-overflow-scrolling:touch}
+.rail::-webkit-scrollbar{height:6px}.rail::-webkit-scrollbar-thumb{background:var(--line);border-radius:3px}
+.feat{flex:0 0 74%;max-width:300px;scroll-snap-align:start;background:var(--paper);border:1px solid var(--line);border-left:4px solid var(--marigold);border-radius:4px 16px 4px 16px;padding:16px;font-weight:500}
+
+/* price table */
+.tbl{width:100%;border-collapse:collapse;background:var(--paper);border:1px solid var(--line);border-radius:4px 22px 4px 22px;overflow:hidden}
+.tbl th{background:var(--sea);color:#fff;font-family:var(--display);font-weight:500;text-align:left;padding:14px 14px;font-size:15px}
+.tbl td{padding:14px;border-top:1px solid var(--line);font-size:15.5px;vertical-align:middle}
+.tbl td:first-child{font-family:var(--display);font-weight:700;font-size:18px}
+.tbl .btn{height:40px;padding:0 14px;font-size:14px}
+
+/* overview */
+.overview{display:grid;gap:22px}
+.ov-img{height:260px;border-radius:4px 22px 4px 22px;overflow:hidden;background:var(--sea-2)}
+.ov-img img{width:100%;height:100%;object-fit:cover}
+.overview p{color:var(--slate);margin-bottom:12px;max-width:60ch}
+.check{list-style:none;margin:14px 0 18px;border-top:2px solid var(--ink)}
+.check li{padding:10px 0 10px 28px;border-bottom:1px solid var(--line);position:relative;font-size:15.5px}
+.check li::before{content:"";position:absolute;left:4px;top:17px;width:10px;height:6px;border-left:2.5px solid var(--ok);border-bottom:2.5px solid var(--ok);transform:rotate(-45deg)}
+
+/* amenities */
+.agroup{display:grid;gap:14px;margin-bottom:26px}
+.agroup .pic{aspect-ratio:16/10;border-radius:4px 22px 4px 22px;overflow:hidden;background:var(--sea-2)}
+.agroup .pic img{width:100%;height:100%;object-fit:cover}
+.agroup h3{font-family:var(--display);font-size:22px;margin-bottom:8px}
+.alist{list-style:none;columns:2;column-gap:18px}
+.alist li{padding:5px 0;font-size:15px;color:var(--slate);break-inside:avoid}
+.alist li::before{content:"";display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--marigold);margin-right:9px;vertical-align:middle}
+
+/* location */
+.loc-grid{display:grid;gap:18px}
+.loc{border-top:2px solid var(--ink)}
+.loc details{border-bottom:1px solid var(--line);padding:2px 0}
+.loc summary{cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;padding:14px 0;font-family:var(--display);font-size:19px}
+.loc summary::-webkit-details-marker{display:none}
+.loc summary::after{content:"+";font-size:22px;color:var(--sea-3)}
+.loc details[open] summary::after{content:"\2212"}
+.loc ul{list-style:none;padding:0 0 12px}
+.loc li{display:flex;justify-content:space-between;gap:12px;padding:7px 0;font-size:15.5px;color:var(--slate)}
+.loc li b{color:var(--ink);font-weight:600;white-space:nowrap}
+.mapbox{min-height:320px;border-radius:4px 22px 4px 22px;overflow:hidden;background:var(--sea-2)}
+.mapbox iframe{width:100%;height:100%;min-height:320px;border:0}
+
+/* 360 */
+.tour{position:relative;border-radius:4px 22px 4px 22px;overflow:hidden;aspect-ratio:16/9;background:var(--sea-2);cursor:pointer;border:0;width:100%;display:block;padding:0}
+.tour img{width:100%;height:100%;object-fit:cover}
+.tour .play{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(11,34,48,.35)}
+.tour .play span{background:var(--marigold);color:var(--sea);font-weight:600;padding:12px 20px;border-radius:999px}
+
+/* gallery */
+.gal{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.gtile{position:relative;aspect-ratio:1/1;border:0;padding:0;cursor:pointer;background:var(--sea-2);border-radius:4px 16px 4px 16px;overflow:hidden;display:block;width:100%}
+.gtile img{width:100%;height:100%;object-fit:cover}
+.gtile .ph{position:absolute;inset:0;border-radius:0;font-size:11.5px}
+.imp{position:absolute;left:0;right:0;bottom:0;padding:16px 8px 6px;font-size:11px;color:#fff;background:linear-gradient(transparent,rgba(11,34,48,.8))}
+
+/* contact band */
+.band{margin-top:48px;background:var(--sea);padding:40px 0}
+.band .grid{display:grid;gap:24px}
+.band h2{color:#fff;font-family:var(--display);font-size:clamp(26px,6.4vw,36px);line-height:1.1;margin-bottom:6px}
+.band p.c{color:#C5D7DD;margin-bottom:18px}
+.band .mapbox{min-height:300px}
+
+/* about + footer */
+.about p{color:var(--slate);max-width:64ch;margin-bottom:10px}
+.rera-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:16px}
+.rera{background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:12px;font-size:13.5px;text-align:center}
+.rera .qr{width:96px;height:96px;margin:0 auto 8px;border-radius:6px;overflow:hidden;background:var(--mist)}
+.rera .qr img{width:100%;height:100%;object-fit:contain}
+.rera .qr .ph{font-size:10.5px;padding:6px;height:100%;border-radius:6px}
+.rera b{display:block;font-family:var(--display);font-size:14.5px}
+footer{padding:26px 0 18px;font-size:13px;color:var(--slate)}
+footer p{margin-bottom:8px;max-width:84ch}
+footer a{color:var(--sea-3)}
+
+/* forms */
+.form-card{background:var(--paper);color:var(--ink);border-radius:14px;padding:20px;position:relative}
+.form-card .t{font-family:var(--display);font-size:22px;line-height:1.15;margin-bottom:4px}
+.form-card .hint{font-size:14px;color:var(--slate);margin-bottom:14px}
+.field{margin-bottom:12px}
+.field label{display:block;font-size:14px;font-weight:600;margin-bottom:5px}
+.field input,.field select{width:100%;height:50px;padding:0 14px;font:inherit;font-size:16px;color:var(--ink);background:#fff;border:1.5px solid var(--line);border-radius:8px;appearance:none;-webkit-appearance:none}
+.field select{background-image:linear-gradient(45deg,transparent 50%,var(--slate) 50%),linear-gradient(135deg,var(--slate) 50%,transparent 50%);background-position:calc(100% - 20px) 22px,calc(100% - 15px) 22px;background-size:5px 5px;background-repeat:no-repeat;padding-right:36px}
+.field input:focus,.field select:focus{border-color:var(--sea-3);outline:none;box-shadow:0 0 0 3px rgba(27,70,96,.18)}
+.field.bad input,.field.bad select{border-color:var(--err)}
+.field .msg{display:none;font-size:13px;color:var(--err);margin-top:4px}
+.field.bad .msg{display:block}
+.phone-row{display:flex}
+.phone-row .cc{display:flex;align-items:center;padding:0 12px;border:1.5px solid var(--line);border-right:0;border-radius:8px 0 0 8px;background:var(--mist);font-weight:600;color:var(--slate)}
+.phone-row input{border-radius:0 8px 8px 0}
+.hp{position:absolute!important;left:-9999px;width:1px;height:1px;opacity:0}
+.consent{font-size:12.5px;color:var(--slate);margin-top:10px;line-height:1.45}
+.form-error{display:none;margin-top:10px;font-size:14px;color:var(--err)}
+.form-ok{display:none}
+.form-ok h3{font-family:var(--display);font-size:22px;color:var(--ok);margin-bottom:6px}
+.form-ok p{margin-bottom:14px;color:var(--slate)}
+.form-ok .btn{margin-bottom:8px}
+
+/* dialogs */
+dialog{border:0;border-radius:14px;padding:0;width:min(92vw,440px);max-height:92vh;overflow:auto;background:transparent}
+dialog::backdrop{background:rgba(11,34,48,.72)}
+.x{position:absolute;top:10px;right:12px;width:38px;height:38px;border:0;background:var(--mist);border-radius:50%;font-size:20px;cursor:pointer;color:var(--ink);z-index:2}
+#lightbox{width:min(96vw,980px);background:#000;border-radius:10px}
+#lightbox img{width:100%;max-height:82vh;object-fit:contain}
+#lightbox .x{background:rgba(255,255,255,.9)}
+.lb-nav{position:absolute;top:50%;width:44px;height:44px;margin-top:-22px;border:0;border-radius:50%;background:rgba(255,255,255,.9);font-size:22px;cursor:pointer}
+#lbPrev{left:8px}#lbNext{right:8px}
+.intro ul{margin:10px 0 16px 18px;color:var(--slate)}
+.intro li{margin-bottom:8px}
+
+/* why area */
+.area-grid{display:grid;gap:26px}
+.reasons{list-style:none;counter-reset:r;border-top:2px solid var(--ink)}
+.reasons li{counter-increment:r;position:relative;padding:16px 0 16px 46px;border-bottom:1px solid var(--line)}
+.reasons li::before{content:counter(r);position:absolute;left:0;top:16px;width:30px;height:30px;border-radius:50%;background:var(--sea);color:#fff;font-weight:600;display:grid;place-items:center;font-size:14px}
+.reasons b{display:block;font-family:var(--display);font-size:19px;margin-bottom:3px}
+.reasons span{color:var(--slate);font-size:15.5px}
+.heritage{background:var(--paper);border:1px solid var(--line);border-radius:4px 22px 4px 22px;padding:20px}
+.heritage h3{font-family:var(--display);font-size:21px;margin-bottom:10px}
+.heritage ul{list-style:none;border-left:2px solid var(--marigold);margin-left:4px}
+.heritage li{position:relative;padding:0 0 14px 18px;font-size:15px;color:var(--slate)}
+.heritage li::before{content:"";position:absolute;left:-6px;top:6px;width:10px;height:10px;border-radius:50%;background:var(--marigold)}
+.heritage li b{display:block;color:var(--ink);font-family:var(--display)}
+@media (min-width:820px){.area-grid{grid-template-columns:1.25fr 1fr;gap:40px;align-items:start}}
+/* v3 additions */
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.chips span{font-size:13px;font-weight:500;color:#fff;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.28);padding:4px 11px;border-radius:999px;backdrop-filter:blur(3px)}
+.trust{background:var(--paper);border-bottom:1px solid var(--line)}
+.trust .wrap{display:grid;gap:0}
+.trust .t{padding:14px 0 14px 34px;position:relative;border-top:1px solid var(--line)}
+.trust .t:first-child{border-top:0}
+.trust .t::before{content:"";position:absolute;left:6px;top:20px;width:12px;height:7px;border-left:3px solid var(--ok);border-bottom:3px solid var(--ok);transform:rotate(-45deg)}
+.trust b{display:block;font-family:var(--display);font-size:16px}
+.trust span{font-size:14px;color:var(--slate)}
+.emi{display:grid;gap:18px}
+.emi-in,.emi-out{background:var(--paper);border:1px solid var(--line);border-radius:4px 22px 4px 22px;padding:20px}
+.sl{margin-bottom:16px}
+.sl:last-child{margin-bottom:0}
+.sl label{display:flex;justify-content:space-between;font-weight:600;font-size:14.5px;margin-bottom:6px}
+.sl label b{font-family:var(--display);color:var(--sea-3)}
+input[type=range]{-webkit-appearance:none;appearance:none;width:100%;height:6px;border-radius:3px;background:var(--line);outline-offset:6px}
+input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:24px;height:24px;border-radius:50%;background:var(--marigold);border:3px solid var(--sea);cursor:pointer}
+input[type=range]::-moz-range-thumb{width:20px;height:20px;border-radius:50%;background:var(--marigold);border:3px solid var(--sea);cursor:pointer}
+.emi-out .k{font-size:14px;color:var(--slate)}
+.emi-out .big small{font-family:var(--body);font-weight:500;font-size:15px;color:var(--slate)}
+.emi-out .big{font-family:var(--display);font-weight:700;font-size:clamp(30px,8.4vw,44px);line-height:1.05;color:var(--sea);margin:2px 0 14px}
+.emi-out dl{border-top:2px solid var(--ink);margin-bottom:16px}
+.emi-out dl div{display:flex;justify-content:space-between;padding:9px 0;border-bottom:1px solid var(--line);font-size:15px}
+.emi-out dt{color:var(--slate)}.emi-out dd{font-weight:600}
+.rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
+.rv.in{opacity:1;transform:none}
+@media (min-width:820px){
+  .trust .wrap{grid-template-columns:repeat(3,1fr);gap:28px}
+  .trust .t{border-top:0;padding:20px 0 20px 34px}.trust .t::before{top:27px}
+  .emi{grid-template-columns:1.1fr 1fr;align-items:stretch}
+}
+@media (prefers-reduced-motion:reduce){.rv{opacity:1;transform:none;transition:none}}
+.map-actions{display:flex;flex-wrap:wrap;gap:10px;padding:16px 0 4px}
+.map-actions .btn{flex:1 1 150px}
+.mapcard{min-height:300px;height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;text-align:center;padding:24px;color:#fff;background:linear-gradient(160deg,var(--sea-3),var(--sea))}
+.mapcard b{font-family:var(--display);font-size:24px}
+.mapcard span{color:#C5D7DD;margin-bottom:12px}
+/* popups: centring fix + four styles */
+dialog{margin:auto;max-width:calc(100vw - 16px)}
+@keyframes popIn{from{opacity:0;transform:translateY(14px) scale(.97)}to{opacity:1;transform:none}}
+@keyframes slideUp{from{transform:translateY(100%)}to{transform:none}}
+@keyframes slideLeft{from{transform:translateX(100%)}to{transform:none}}
+dialog::backdrop{background:rgba(11,34,48,.72);backdrop-filter:blur(2px)}
+.pop-side{display:none}
+#modal .form-card .t{padding-right:44px}
+#modal.pop-center[open]{animation:popIn .26s ease}
+#modal.pop-split{width:min(94vw,860px);max-width:min(94vw,860px);border-radius:14px;overflow:hidden}
+#modal.pop-split[open]{animation:popIn .26s ease}
+#modal.pop-split .pop{display:grid;grid-template-columns:1fr;background:var(--paper);border-radius:14px;overflow:hidden}
+#modal.pop-split .pop-side{display:flex;flex-direction:column;background:var(--sea);color:#fff}
+#modal.pop-split .pop-img{height:96px;background:var(--sea-2)}
+#modal.pop-split .pop-copy{display:none}
+#modal.pop-split .pop-img img{width:100%;height:100%;object-fit:cover}
+#modal.pop-split .pop-copy{padding:16px 20px 18px}
+#modal.pop-split .pop-copy h3{font-family:var(--display);font-size:22px;line-height:1.15}
+#modal.pop-split .pop-copy ul{list-style:none;margin-top:8px}
+#modal.pop-split .pop-copy li{position:relative;padding:4px 0 4px 24px;font-size:14.5px;color:#D4E3E8}
+#modal.pop-split .pop-copy li::before{content:"";position:absolute;left:3px;top:10px;width:10px;height:6px;border-left:2.5px solid var(--marigold);border-bottom:2.5px solid var(--marigold);transform:rotate(-45deg)}
+#modal.pop-split .form-card{border-radius:0}
+#modal.pop-sheet{margin:auto auto 0;width:100%;max-width:520px;border-radius:18px 18px 0 0}
+#modal.pop-sheet[open]{animation:slideUp .32s ease}
+#modal.pop-sheet .form-card{border-radius:18px 18px 0 0;padding-bottom:calc(20px + env(safe-area-inset-bottom,0px))}
+#modal.pop-sheet .form-card::before{content:"";display:block;width:44px;height:4px;border-radius:2px;background:var(--line);margin:-6px auto 12px}
+#modal.pop-drawer{margin:0 0 0 auto;height:100vh;height:100dvh;max-height:100dvh;width:min(92vw,400px);border-radius:0}
+#modal.pop-drawer[open]{animation:slideLeft .3s ease}
+#modal.pop-drawer .form-card{min-height:100%;border-radius:0;padding-top:30px}
+@media (min-width:720px){
+  #modal.pop-split .pop{grid-template-columns:1fr 1.05fr}
+  #modal.pop-split .pop-img{flex:1;min-height:220px;height:auto}
+  #modal.pop-split .pop-copy{display:block}
+}
+@media (prefers-reduced-motion:reduce){#modal[open]{animation:none!important}}
+.pop-switch{position:fixed;left:10px;bottom:84px;z-index:60;display:flex;flex-wrap:wrap;gap:6px;align-items:center;max-width:calc(100vw - 20px);background:#fff;border:1px solid var(--line);border-radius:12px;padding:8px 10px;box-shadow:0 10px 28px -12px rgba(0,0,0,.45);font-size:12.5px}
+.pop-switch span{font-weight:600;color:var(--slate);margin-right:2px}
+.pop-switch button{height:32px;padding:0 11px;border-radius:999px;border:1.5px solid var(--sea);background:transparent;color:var(--sea);font:inherit;font-weight:600;font-size:12.5px;cursor:pointer;text-transform:capitalize}
+.pop-switch button[aria-pressed=true]{background:var(--sea);color:#fff}
+@media (min-width:820px){.pop-switch{bottom:16px;left:16px}}
+/* two-step popup */
+.chooser{display:none;gap:10px;margin:2px 0 14px;grid-template-columns:1fr 1fr}
+#modal .chooser{display:grid}
+#modal.single .chooser{display:none}
+.opt{position:relative;cursor:pointer;display:block}
+.opt input{position:absolute;opacity:0;inset:0;width:100%;height:100%;cursor:pointer}
+.opt span{display:block;height:100%;border:1.5px solid var(--line);border-radius:10px;padding:10px 12px;transition:border-color .15s,background .15s}
+.opt b{display:block;font-family:var(--display);font-size:15px;line-height:1.2}
+.opt small{display:block;color:var(--slate);font-size:12.5px;line-height:1.3;margin-top:3px}
+.opt input:checked+span{border-color:var(--sea);background:#EAF2F3;box-shadow:inset 0 0 0 1px var(--sea)}
+.opt input:focus-visible+span{outline:3px solid var(--marigold);outline-offset:2px}
+.more-t{font-size:13.5px;font-weight:600;color:var(--ink);margin:2px 0 8px!important}
+/* sticky bar */
+.bar{position:fixed;left:0;right:0;bottom:0;z-index:40;display:flex;gap:8px;padding:10px 12px calc(10px + env(safe-area-inset-bottom,0px));background:#fff;border-top:1px solid var(--line);box-shadow:0 -8px 24px -12px rgba(0,0,0,.25)}
+.bar a,.bar button{height:50px;border-radius:8px;font:inherit;font-weight:600;font-size:16px;display:flex;align-items:center;justify-content:center;text-decoration:none;border:0;cursor:pointer}
+.bar .enq{flex:1;background:var(--marigold);color:var(--sea)}
+.bar .wa{width:54px;background:#1FA855;color:#fff}
+.bar .call{width:54px;background:var(--sea);color:#fff}
+.bar svg{width:22px;height:22px;fill:currentColor}
+.float-int{display:none}
+
+@media (min-width:820px){
+  body{padding-bottom:0}
+  .bar{display:none}
+  .menu-btn{display:none}
+  nav.menu{display:flex;position:static;background:none;padding:0;gap:18px;flex:0 1 auto}
+  nav.menu a{border:0;padding:0;font-size:15px;color:#D4E3E8}
+  .top .wrap{gap:24px}
+  .slides{height:620px}
+  .sl-btn{display:block}
+  .sl-next{right:420px}
+  .hero-copy{padding-bottom:70px}
+  .hero-form{position:absolute;right:max(20px,calc((100vw - 1100px)/2 + 20px));top:40px;width:360px;padding:0;background:none;z-index:5}
+  .rail{margin:0;padding:4px 0 14px;overflow:visible;flex-wrap:wrap}
+  .feat{flex:0 0 calc(33.333% - 8px);max-width:none}
+  .overview{grid-template-columns:1fr 1fr;align-items:center;gap:40px}
+  .ov-img{height:400px}
+  .agroup{grid-template-columns:1.2fr 1fr;align-items:center;gap:32px}
+  .agroup:nth-child(even) .pic{order:2}
+  .loc-grid{grid-template-columns:1fr 1fr}
+  .gal{grid-template-columns:repeat(4,1fr)}
+  .band .grid{grid-template-columns:1fr 1fr;align-items:stretch}
+  .rera-grid{grid-template-columns:repeat(5,1fr)}
+  .float-int{display:block;position:fixed;right:0;top:50%;z-index:35;transform:rotate(-90deg) translateX(50%);transform-origin:100% 100%;height:42px;padding:0 18px;border:0;background:var(--marigold);color:var(--sea);font:inherit;font-weight:600;border-radius:8px 8px 0 0;cursor:pointer}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.slide{transition:none}}
+</style>
+</head>
+<body>
+
+<div class="sample-banner" id="sampleBanner" hidden>Sample content. Replace the text, prices and images in CONFIG before going live.</div>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#home" id="brandName">Your Brand Name</a>
+    <nav class="menu" id="menu" aria-label="Sections">
+      <a href="#overview">Overview</a><a href="#price">Configuration</a><a href="#amenities">Amenities</a><a href="#area">Why Byculla</a>
+      <a href="#location">Location</a><a href="#gallery">Gallery</a><a href="#contact">Contact</a><a href="#tour">360&deg;</a>
+    </nav>
+    <a class="top-call" id="topCall" href="#" data-track="call">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25c1.1.37 2.3.57 3.6.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.6a1 1 0 0 1-.25 1z"/></svg>
+      <span id="topCallText">Call</span>
+    </a>
+    <button class="menu-btn" id="menuBtn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="menu">&#9776;</button>
+  </div>
+</header>
+
+<main id="home">
+  <section class="hero" id="hero">
+    <div class="stage">
+    <div class="slides" id="slides" aria-roledescription="carousel"></div>
+    <button class="sl-btn sl-prev" id="slPrev" type="button" aria-label="Previous slide">&#8249;</button>
+    <button class="sl-btn sl-next" id="slNext" type="button" aria-label="Next slide">&#8250;</button>
+    <div class="dots" id="dots"></div>
+    <span class="hero-note" id="heroNote" hidden>*Artist's impression</span>
+    <div class="hero-copy">
+      <div class="wrap">
+        <h1 id="pName">Project Name</h1>
+        <p class="tag" id="pTag"></p>
+        <div class="chips" id="chips"></div>
+        <p class="from"><span id="fromLabel"></span><b id="fromPrice"></b></p>
+        <div class="actions">
+          <button class="btn btn-primary" type="button" data-open="Request price">Request price</button>
+          <a class="btn btn-ghost" data-wa data-track="whatsapp" href="#">WhatsApp us</a>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="hero-form"><div class="wrap"><div class="form-card" data-wrap data-title="Get price and offers"></div></div></div>
+  </section>
+
+  <div class="trust"><div class="wrap" id="trust"></div></div>
+
+  <section class="block" id="why">
+    <div class="wrap">
+      <h2 id="featTitle">Why this project</h2>
+      <p class="lead">Key reasons buyers shortlist it.</p>
+      <div class="rail" id="features"></div>
+    </div>
+  </section>
+
+  <section class="block" id="price">
+    <div class="wrap">
+      <h2>Configuration and price</h2>
+      <p class="lead" id="priceLead"></p>
+      <table class="tbl">
+        <thead><tr><th>Type</th><th>Carpet area</th><th>Price</th></tr></thead>
+        <tbody id="units"></tbody>
+      </table>
+      <p class="note">Prices are indicative and subject to change. Ask for the full cost sheet.</p>
+    </div>
+  </section>
+
+  <section class="block" id="emi">
+    <div class="wrap">
+      <h2>Plan your home loan</h2>
+      <p class="lead">Estimate your monthly EMI. The figures are examples only, so check the rate and eligibility with your bank.</p>
+      <div class="emi">
+        <div class="emi-in">
+          <div class="sl"><label for="ePrice">Home price <b id="vPrice"></b></label><input id="ePrice" type="range"></div>
+          <div class="sl"><label for="eDown">Down payment <b id="vDown"></b></label><input id="eDown" type="range"></div>
+          <div class="sl"><label for="eRate">Interest rate <b id="vRate"></b></label><input id="eRate" type="range"></div>
+          <div class="sl"><label for="eYears">Loan tenure <b id="vYears"></b></label><input id="eYears" type="range"></div>
+        </div>
+        <div class="emi-out" aria-live="polite">
+          <p class="k">Estimated monthly EMI</p>
+          <p class="big" id="oEmi"></p>
+          <dl><div><dt>Loan amount</dt><dd id="oLoan"></dd></div><div><dt>Total interest</dt><dd id="oInt"></dd></div><div><dt>Down payment</dt><dd id="oDown"></dd></div></dl>
+          <a class="btn btn-wa btn-block" id="emiWa" data-track="whatsapp" target="_blank" rel="noopener" href="#">Send this plan on WhatsApp</a>
+          <button class="btn btn-line btn-block" type="button" data-open="EMI plan" style="margin-top:8px">Talk to an advisor</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="overview">
+    <div class="wrap overview">
+      <div class="ov-img" id="ovImg"></div>
+      <div>
+        <h2 id="ovTitle">Overview</h2>
+        <div id="ovText"></div>
+        <ul class="check" id="ovList"></ul>
+        <button class="btn btn-dark" type="button" data-open="Download brochure" data-brochure="1">Download brochure</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="area">
+    <div class="wrap">
+      <h2 id="areaTitle">Why Byculla</h2>
+      <p class="lead" id="areaLead"></p>
+      <div class="area-grid">
+        <ol class="reasons" id="reasons"></ol>
+        <div class="heritage"><h3 id="heritageTitle"></h3><ul id="heritage"></ul></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="amenities">
+    <div class="wrap">
+      <h2>Amenities</h2>
+      <p class="lead" id="amenLead"></p>
+      <div id="agroups"></div>
+    </div>
+  </section>
+
+  <section class="block" id="location">
+    <div class="wrap">
+      <h2>Location and connectivity</h2>
+      <p class="lead" id="locLead"></p>
+      <div class="loc-grid">
+        <div class="loc" id="loc"></div>
+        <div class="mapbox" id="map"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="tour">
+    <div class="wrap">
+      <h2>360&deg; view</h2>
+      <p class="lead">Take a virtual walk-through from your phone.</p>
+      <button class="tour" type="button" id="tourBtn" data-open="360 tour" data-tour="1" aria-label="Open 360 degree view">
+        <span id="tourImg"></span><span class="play"><span>View in 360&deg;</span></span>
+      </button>
+      <p class="note">Views are indicative and may differ from the actual property.</p>
+    </div>
+  </section>
+
+  <section class="block" id="gallery">
+    <div class="wrap">
+      <h2>Gallery</h2>
+      <p class="lead">Tap any picture to enlarge it.</p>
+      <div class="gal" id="gal"></div>
+    </div>
+  </section>
+
+  <section class="block" id="about">
+    <div class="wrap about">
+      <h2 id="devTitle">About the developer</h2>
+      <p id="devText"></p>
+      <div class="rera-grid" id="reraGrid"></div>
+    </div>
+  </section>
+
+  <section class="block" id="faq">
+    <div class="wrap">
+      <h2>Questions buyers ask</h2>
+      <p class="lead">Straight answers before you visit.</p>
+      <div class="loc" id="faqList"></div>
+    </div>
+  </section>
+
+  <section class="band" id="contact">
+    <div class="wrap grid">
+      <div>
+        <h2>Get price, brochure and availability</h2>
+        <p class="c">Leave your details and we call you back.</p>
+        <div class="form-card" data-wrap data-title="Contact us"></div>
+      </div>
+      <div class="mapbox" id="map2"></div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p id="footId"></p>
+    <p id="disclaimer"></p>
+    <p><a id="privacyLink" href="#">Privacy policy</a></p>
+  </div>
+</footer>
+
+<button class="float-int" type="button" data-open="Interested">I'm interested</button>
+
+<div class="bar">
+  <button class="enq" type="button" data-open="Book site visit">Book a site visit</button>
+  <a class="wa" data-wa data-track="whatsapp" href="#" aria-label="Chat on WhatsApp"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.1-1.3A10 10 0 1 0 12 2zm0 2a8 8 0 1 1-4.2 14.8l-.3-.2-2.8.7.7-2.7-.2-.3A8 8 0 0 1 12 4zm-3 3.5c-.3 0-.7.2-1 .7-.4.5-.6 1.2-.4 2 .3 1.3 1.5 3 3.2 4.2 1.7 1.1 3.3 1.6 4.4 1.3.7-.2 1.2-.8 1.3-1.4.1-.4 0-.6-.2-.7l-1.7-.8c-.3-.1-.5 0-.7.2l-.5.6c-.1.2-.3.2-.5.1-1-.5-1.9-1.3-2.4-2.3-.1-.2-.1-.4 0-.5l.4-.5c.1-.2.2-.4.1-.6l-.7-1.7c-.1-.3-.3-.4-.6-.4H9z"/></svg></a>
+  <a class="call" id="barCall" data-track="call" href="#" aria-label="Call us"><svg viewBox="0 0 24 24"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25c1.1.37 2.3.57 3.6.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.6a1 1 0 0 1-.25 1z"/></svg></a>
+</div>
+
+<dialog id="modal" aria-label="Enquiry form" class="pop-center">
+  <div class="pop">
+    <aside class="pop-side">
+      <div class="pop-img" id="popImg"></div>
+      <div class="pop-copy"><h3 id="popHead"></h3><ul id="popPts"></ul></div>
+    </aside>
+    <div class="form-card" data-wrap data-title="Get price and brochure"><button class="x" type="button" id="modalClose" aria-label="Close">&times;</button></div>
+  </div>
+</dialog>
+
+<dialog id="lightbox" aria-label="Gallery picture">
+  <button class="x" type="button" id="lbClose" aria-label="Close">&times;</button>
+  <button class="lb-nav" id="lbPrev" type="button" aria-label="Previous">&#8249;</button>
+  <img id="lbImg" alt="">
+  <button class="lb-nav" id="lbNext" type="button" aria-label="Next">&#8250;</button>
+</dialog>
+
+<dialog id="introModal" aria-label="Welcome">
+  <div class="form-card intro">
+    <button class="x" type="button" id="introClose" aria-label="Close">&times;</button>
+    <h3 class="t" id="introTitle"></h3><ul id="introList"></ul>
+    <button class="btn btn-primary btn-block" type="button" id="introGo">Know more</button>
+  </div>
+</dialog>
+
+<template id="formTpl">
+  <h3 class="t" data-t>Get price and brochure</h3>
+  <p class="hint">Takes 20 seconds. We call you back, no spam.</p>
+  <form novalidate>
+    <div class="chooser" role="radiogroup" aria-label="What would you like?">
+      <label class="opt"><input type="radio" name="goal" value="Price sheet and floor plans" checked><span><b>Price sheet</b><small>Cost sheet and floor plans</small></span></label>
+      <label class="opt"><input type="radio" name="goal" value="Site visit"><span><b>Book a site visit</b><small>Pick a day that suits you</small></span></label>
+    </div>
+    <div class="field"><label>Your name</label><input name="name" type="text" autocomplete="name" required><div class="msg">Enter your name.</div></div>
+    <div class="field"><label>Mobile number</label>
+      <div class="phone-row"><span class="cc">+91</span><input name="phone" type="tel" inputmode="numeric" autocomplete="tel-national" maxlength="10" placeholder="10 digit number" required></div>
+      <div class="msg">Enter a valid 10 digit mobile number.</div></div>
+    <div class="field"><label data-visit-label>When would you like to visit? (optional)</label><select name="visit"><option value="">Select</option><option>Today</option><option>Tomorrow</option><option>This weekend</option><option>Next week</option><option>Just exploring</option></select><div class="msg">Choose when you would like to visit.</div></div>
+    <div class="field"><label>Home type (optional)</label><select name="unit"><option value="">Select</option></select></div>
+    <input type="hidden" name="interest" value="">
+    <input class="hp" type="text" name="company" tabindex="-1" autocomplete="off" aria-hidden="true">
+    <button class="btn btn-primary btn-block" type="submit" data-submit>Get price sheet</button>
+    <p class="form-error"></p>
+    <p class="consent">By submitting, you agree to be contacted by call, SMS or WhatsApp about this project.</p>
+  </form>
+  <div class="form-ok" aria-live="polite">
+    <h3>Request received</h3>
+    <p data-ok-msg>We will call you shortly.</p>
+    <p class="more-t">While you wait, two more things you can open:</p>
+    <a class="btn btn-dark btn-block" data-next-brochure data-track="brochure" target="_blank" rel="noopener" href="#">Download brochure</a>
+    <a class="btn btn-line btn-block" data-next-tour data-track="tour" target="_blank" rel="noopener" href="#">See the 360&deg; view</a>
+    <a class="btn btn-wa btn-block" data-wa data-track="whatsapp" href="#">Chat on WhatsApp</a>
+  </div>
+</template>
+
+<script>
+/* ================================================================
+   CONFIG: everything on the page is set here.
+   Images and video: put files in an "assets" folder next to this file and
+   set the path, for example "assets/hero-1.jpg". Leave "" to show a marked
+   placeholder. Set sampleMode to false when all content is real.
+   ================================================================ */
+const CONFIG = {
+  sampleMode: true,                        // set to false when every detail below is real
+  brandName: "Monte South",
+  phone: "9022243652",
+  privacyUrl: "#",
+  agent: { name: "Your Company Pvt. Ltd.", rera: "A5XXXXXXXXXX", qr: "" },       // your registered company name, MahaRERA agent number and QR image
+  projectRera: [ { label: "Tower A", no: "PR1XXXXXXXXXXXX", qr: "" } ],          // add one entry per tower or wing
+  formEndpoint: "",
+  brochureUrl: "",                         // PDF path or link, shown after the brochure form is submitted
+  tourUrl: "",                             // 360 view link, shown after the 360 form is submitted
+  exitIntent: true,                        // desktop only: popup when the mouse leaves the top of the page, once
+  popupDelaySeconds: 20,                   // lead popup appears after this many seconds, 0 = off
+  popupStyle: "split",                     // center | split | sheet | drawer. Also testable per ad with ?popup=split in the URL
+  popupSwitcher: false,                    // true shows a small "Popup style" picker so you can try all four
+  popup: {
+    image: "assets/lobby-1-t.webp",         // used by the split style
+    headline: "Two ways to get started",
+    points: ["Price sheet and floor plans on WhatsApp", "Site visits on your schedule", "Brochure and 360° view right after"]
+  },
+  gateGallery: true,                       // first tap on a gallery picture opens the lead popup, then the picture
+  intro: { enabled: false, title: "Welcome", points: ["Short point about you or the project.", "Second point."] },
+
+  googleAdsId: "", googleAdsLeadLabel: "", googleAdsCallLabel: "", metaPixelId: "",
+
+  project: {
+    name: "Monte South",
+    tagline: "Luxury residences in Byculla, South Mumbai",
+    address: "Khatau Mills Compound, Byculla (W), Mumbai",     // verify on the map before going live
+    by: "Adani Realty and Marathon",
+    fromLabel: "Pricing",
+    fromPrice: "On request",
+    slideSeconds: 5,
+    slides: [
+      { desktop: "assets/hero-1.webp", mobile: "assets/hero-1-m.webp", alt: "Sunset over the lagoon pool", imp: true },
+      { desktop: "assets/hero-2.webp", mobile: "assets/hero-2-m.webp", alt: "Grand lobby with chandeliers" },
+      { desktop: "assets/hero-3.webp", mobile: "assets/hero-3-m.webp", alt: "Entrance drive with fountain" },
+      { desktop: "assets/hero-4.webp", mobile: "assets/hero-4-m.webp", alt: "Lagoon pool with cabana", imp: true }
+    ]
+  },
+
+  features: [
+    "Byculla's old mill lands are being rebuilt into premium homes and offices, the way Parel and Worli were.",
+    "Close to the Eastern Freeway and the Eastern and Western Express Highways.",
+    "Byculla station, on both the Central and Harbour lines, is nearby.",
+    "Long-established schools, colleges and hospitals serve the neighbourhood.",
+    "Lagoon-style pool, sports courts, fitness centre and residents' lounge on site.",
+    "A South Mumbai address next to the Lower Parel and Worli high streets."
+  ],
+
+  priceLead: "Starting carpet areas by home type. Tap Get price for the full cost sheet.",
+  units: [
+    { type: "2 BHK", area: "Area on request" },
+    { type: "2.5 BHK", area: "Area on request" },
+    { type: "3 BHK", area: "Area on request" },
+    { type: "3.5 BHK", area: "Area on request" }
+  ],
+
+  overview: {
+    title: "Overview", image: "assets/lobby-2.webp",
+    paragraphs: [
+      "Monte South is a residential address in Byculla (West), South Mumbai, developed by Adani Realty and Marathon. It sits within easy reach of the Eastern Freeway, the express highways and Byculla station.",
+      "The campus brings together a landscaped podium with pools, sports courts, a fitness centre and lounges, in an area that is being transformed from old mill land."
+    ],
+    points: ["Lagoon-style pool with cabanas", "Sports courts and beach volleyball", "Fitness centre, yoga room and dance hall", "Grand lobby and residents' lounge", "Themed landscape garden and temple"]
+  },
+
+  area: {
+    title: "Why Byculla",
+    lead: "Five reasons buyers are looking at this part of South Mumbai.",
+    reasons: [
+      { h: "The next Lower Parel in the making", t: "Parel, Worli and Mahalakshmi grew out of old mill land into premium homes, offices and high streets. Byculla's mill lands are now following a similar path." },
+      { h: "Development is moving this way", t: "With the neighbouring belt largely built up, the next wave of development is reaching Byculla." },
+      { h: "Well connected by road and rail", t: "The Eastern Freeway and the Eastern and Western Express Highways are close. Byculla station serves the Central and Harbour lines, and most South Mumbai bus routes stop nearby." },
+      { h: "Established social infrastructure", t: "Long-standing schools, colleges and hospitals serve the area, and the Lower Parel and Worli high streets are next door." },
+      { h: "A more accessible entry into South Mumbai", t: "Prices in Parel, Worli and Mahalakshmi have risen sharply over the past decade. Byculla has historically been the more accessible address. Ask us for current rates." }
+    ],
+    heritageTitle: "A neighbourhood with history",
+    heritage: [
+      ["1784", "The Hornby Vellard joins Bombay's seven islands, and Byculla's marshy land begins to be reclaimed."],
+      ["1793", "Bellasis Road opens, making the land available for building."],
+      ["1802", "The Bombay Turf Club is founded, later renamed the Western India Turf Club."],
+      ["1833", "The Byculla Club opens as Bombay's first residential club."],
+      ["Late 1800s", "Textile mills draw workers to Byculla, Parel and Mahalakshmi."],
+      ["Today", "Mill lands are being redeveloped into homes and offices."]
+    ]
+  },
+
+  amenityLead: "A wide range of indoor and outdoor amenities for all ages.",
+  amenityGroups: [
+    { title: "Pools and outdoors", image: "assets/pool-3.webp", items: ["Lagoon-style pool", "Cabana seating", "Beach volleyball court", "Sports court", "Themed landscape garden", "Temple"] },
+    { title: "Fitness and wellness", image: "assets/gym-1.webp", items: ["Fitness centre", "Cardio zone", "Strength training", "Yoga room", "Dance hall"] },
+    { title: "Lobby and lounge", image: "assets/lounge.webp", items: ["Grand entrance lobby", "Reception lounge", "Residents lounge"] }
+  ],
+
+  locationLead: "Approximate distances. Check the map for your route.",
+  location: {
+    query: "Monte South Byculla Mumbai",     // used for the Open in Google Maps and directions buttons
+    mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.051238795904!2d72.82937587520281!3d18.973344382210175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ce439574a3e7%3A0x667e00c5b3c6cef6!2sMonte%20South!5e0!3m2!1sen!2sin!4v1791571333425!5m2!1sen!2sin",
+    groups: [
+      { name: "Roads and rail", items: [["Eastern Freeway", "Nearby"], ["Eastern Express Highway", "Nearby"], ["Byculla railway station", "Nearby"], ["Mumbai Central railway station", "Nearby"]] },
+      { name: "Schools", items: [["Agnes' High School", "0.4 km"], ["More schools across Byculla and Mahalakshmi", "Nearby"]] },
+      { name: "Hospitals", items: [["Masina Hospital", "0.6 km"], ["J.J. Hospital", "Nearby"]] },
+      { name: "Business districts", items: [["Parel and Lower Parel offices", "Nearby"]] },
+      { name: "Green and leisure", items: [["Veer Mata Jijabai Bhosale Udyan (Rani Baug)", "Nearby"]] }
+    ]
+  },
+
+  trust: [
+    ["MahaRERA registered agent", "Our registration number is in the footer, and you can verify it online."],
+    ["Visits on your schedule", "Weekdays, evenings and weekends."],
+    ["Price sheet and floor plans", "Shared on WhatsApp on request."]
+  ],
+  emi: { price: 3, min: 1, max: 10, down: 20, rate: 8.5, tenure: 20 },        // price in crore, down payment %, rate %, years
+  faqs: [
+    ["How do I book a site visit?", "Tap Book a site visit or message us on WhatsApp. We confirm a time that suits you, including evenings and weekends."],
+    ["What is included in the price?", "The agreement value is only part of the total cost. GST where applicable, stamp duty, registration and maintenance deposits are extra. Ask us for the full cost sheet."],
+    ["Can NRIs buy here?", "Non-resident Indians can generally buy residential property in India. Documents and the payment route depend on your situation, so we guide you through the steps and suggest you confirm with your bank or adviser."],
+    ["Can I get a home loan?", "Many banks finance approved projects. Eligibility depends on your income and credit profile, so check with your bank. The EMI calculator above gives a rough estimate."],
+    ["Is this the official website of the developer?", "No. This page is run by a MahaRERA registered real estate agent. The agent and project RERA numbers are in the footer, and you can verify both on the MahaRERA website."]
+  ],
+  tourImage: "assets/entrance-2.webp",
+  gallery: [
+    { src: "assets/pool-2.webp", thumb: "assets/pool-2-t.webp", cap: "Sunset at the lagoon pool", imp: true },
+    { src: "assets/lobby-1.webp", thumb: "assets/lobby-1-t.webp", cap: "Grand lobby" },
+    { src: "assets/entrance-1.webp", thumb: "assets/entrance-1-t.webp", cap: "Entrance drive" },
+    { src: "assets/pool-3.webp", thumb: "assets/pool-3-t.webp", cap: "Lagoon pool", imp: true },
+    { src: "assets/lobby-2.webp", thumb: "assets/lobby-2-t.webp", cap: "Reception lobby" },
+    { src: "assets/gym-1.webp", thumb: "assets/gym-1-t.webp", cap: "Fitness centre" },
+    { src: "assets/cabana.webp", thumb: "assets/cabana-t.webp", cap: "Cabana pool", imp: true },
+    { src: "assets/lounge.webp", thumb: "assets/lounge-t.webp", cap: "Residents lounge" },
+    { src: "assets/pool-1.webp", thumb: "assets/pool-1-t.webp", cap: "Beach volleyball court", imp: true },
+    { src: "assets/gym-3.webp", thumb: "assets/gym-3-t.webp", cap: "Cardio zone" },
+    { src: "assets/amazon-landscape.webp", thumb: "assets/amazon-landscape-t.webp", cap: "Themed landscape garden", imp: true },
+    { src: "assets/sports-court.webp", thumb: "assets/sports-court-t.webp", cap: "Sports court", imp: true },
+    { src: "assets/entrance-2.webp", thumb: "assets/entrance-2-t.webp", cap: "Entrance lobby" },
+    { src: "assets/gym-2.webp", thumb: "assets/gym-2-t.webp", cap: "Yoga room" },
+    { src: "assets/temple.webp", thumb: "assets/temple-t.webp", cap: "Temple" },
+    { src: "assets/gym-4.webp", thumb: "assets/gym-4-t.webp", cap: "Strength training" }
+  ],
+
+  developer: { title: "About the developers", text: "Monte South is developed by Adani Realty and Marathon. Add two lines from their official brochure here." },
+  disclaimer: "The information on this website is for information only and is not an offer. This site is managed by a RERA registered real estate agent and is not the official website of the developer. Prices and availability are subject to change without notice. Images are representational and may differ from the actual property. We may share your details with RERA registered developers and contact you by call, SMS, email or WhatsApp. Confirm all details on the MahaRERA website before booking."
+};
+/* ================================================================ */
+
+(function(){
+  const $ = (s, r=document) => r.querySelector(s);
+  const $$ = (s, r=document) => Array.from(r.querySelectorAll(s));
+  const esc = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const C = CONFIG, P = C.project;
+  const tel = "+91" + C.phone, waBase = "https://wa.me/91" + C.phone;
+  const wa = msg => waBase + "?text=" + encodeURIComponent(msg);
+  const img = (src, alt, label) => src ? '<img src="' + esc(src) + '" alt="' + esc(alt) + '" loading="lazy">' : '<div class="ph">' + esc(label) + '</div>';
+
+  // ---------- content ----------
+  document.title = P.name + ", Byculla, South Mumbai | Price, Floor Plans and Brochure";
+  if (C.sampleMode) $("#sampleBanner").hidden = false;
+  $("#brandName").textContent = C.brandName;
+  $("#topCall").href = "tel:" + tel; $("#barCall").href = "tel:" + tel;
+  $("#topCallText").textContent = C.phone.replace(/(\d{5})(\d{5})/, "$1 $2");
+  $("#pName").textContent = P.name; $("#pTag").textContent = P.tagline;
+  $("#fromLabel").textContent = P.fromLabel; $("#fromPrice").textContent = P.fromPrice;
+  $("#featTitle").textContent = "Why " + P.name;
+  $("#features").innerHTML = C.features.map(f => '<div class="feat">' + esc(f) + '</div>').join("");
+  $("#priceLead").textContent = C.priceLead;
+  $("#units").innerHTML = C.units.map(u => '<tr><td>' + esc(u.type) + '</td><td>' + esc(u.area) + '</td><td><button class="btn btn-line" type="button" data-open="Price ' + esc(u.type) + '">Get price</button></td></tr>').join("");
+  $("#ovTitle").textContent = C.overview.title;
+  $("#ovImg").innerHTML = img(C.overview.image, P.name, "Add overview image (assets/overview.jpg)");
+  $("#ovText").innerHTML = C.overview.paragraphs.map(p => '<p>' + esc(p) + '</p>').join("");
+  $("#ovList").innerHTML = C.overview.points.map(p => '<li>' + esc(p) + '</li>').join("");
+  $("#amenLead").textContent = C.amenityLead;
+  $("#agroups").innerHTML = C.amenityGroups.map((g, i) =>
+    '<div class="agroup"><div class="pic">' + img(g.image, g.title, "Add image: amenity-group-" + (i + 1) + ".jpg") + '</div><div><h3>' + esc(g.title) + '</h3><ul class="alist">' +
+    g.items.map(x => '<li>' + esc(x) + '</li>').join("") + '</ul></div></div>').join("");
+  $("#locLead").textContent = C.locationLead + (P.address ? " Project address: " + P.address + "." : "");
+  $("#areaTitle").textContent = C.area.title; $("#areaLead").textContent = C.area.lead;
+  $("#reasons").innerHTML = C.area.reasons.map(r => '<li><b>' + esc(r.h) + '</b><span>' + esc(r.t) + '</span></li>').join("");
+  $("#heritageTitle").textContent = C.area.heritageTitle;
+  $("#heritage").innerHTML = C.area.heritage.map(h => '<li><b>' + esc(h[0]) + '</b>' + esc(h[1]) + '</li>').join("");
+  $("#loc").innerHTML = C.location.groups.map((g, i) =>
+    '<details' + (i === 0 ? ' open' : '') + '><summary>' + esc(g.name) + '</summary><ul>' +
+    g.items.map(it => '<li><span>' + esc(it[0]) + '</span><b>' + esc(it[1]) + '</b></li>').join("") + '</ul></details>').join("");
+  const mq = encodeURIComponent(C.location.query || (P.name + " " + (P.address || "")));
+  const mapOpen = "https://www.google.com/maps/search/?api=1&query=" + mq, mapDir = "https://www.google.com/maps/dir/?api=1&destination=" + mq;
+  const mapHtml = C.location.mapEmbed
+    ? '<iframe src="' + esc(C.location.mapEmbed) + '" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Location map" allowfullscreen></iframe>'
+    : '<div class="mapcard"><b>' + esc(P.name) + '</b><span>' + esc(P.address || "") + '</span><a class="btn btn-primary" target="_blank" rel="noopener" href="' + mapOpen + '">Open in Google Maps</a></div>';
+  $("#map").innerHTML = mapHtml; $("#map2").innerHTML = mapHtml;
+  $("#loc").insertAdjacentHTML("beforeend", '<div class="map-actions"><a class="btn btn-dark" target="_blank" rel="noopener" href="' + mapOpen + '">Open map</a><a class="btn btn-line" target="_blank" rel="noopener" href="' + mapDir + '">Directions</a></div>');
+  $("#tourImg").innerHTML = img(C.tourImage, "360 degree view", "Add 360 preview image (assets/360.jpg)");
+  $("#devTitle").textContent = C.developer.title; $("#devText").textContent = C.developer.text;
+
+  // RERA blocks
+  const reraItems = [{ label: C.agent.name + " (agent)", no: C.agent.rera, qr: C.agent.qr }].concat(C.projectRera);
+  $("#reraGrid").innerHTML = reraItems.map((r, i) =>
+    '<div class="rera"><div class="qr">' + (r.qr ? '<img src="' + esc(r.qr) + '" alt="RERA QR code">' : '<div class="ph">Add RERA QR</div>') + '</div><b>' + esc(r.label) + '</b>' + esc(r.no) + '</div>').join("");
+  $("#footId").textContent = C.agent.name + ". MahaRERA agent registration: " + C.agent.rera + ". Project RERA: " + C.projectRera.map(r => r.label + " " + r.no).join(", ") + ".";
+  $("#disclaimer").textContent = C.disclaimer;
+  $("#privacyLink").href = C.privacyUrl;
+  $$("[data-wa]").forEach(a => a.href = wa("Hi, I am interested in " + P.name + ". Please share the brochure and pricing details."));
+
+  // ---------- hero slider ----------
+  const sl = $("#slides"), dots = $("#dots"), S = P.slides;
+  sl.innerHTML = S.map((s, i) => {
+    let inner;
+    if (s.desktop || s.mobile) {
+      inner = '<picture>' + (s.desktop ? '<source media="(min-width:820px)" srcset="' + esc(s.desktop) + '">' : '') +
+        '<img src="' + esc(s.mobile || s.desktop) + '" alt="' + esc(s.alt || P.name) + '"' + (i ? ' loading="lazy" decoding="async"' : ' fetchpriority="high"') + '></picture>';
+    } else inner = '<div class="ph">Add slide ' + (i + 1) + ': desktop (1920x800) and mobile (800x1000) banners</div>';
+    return '<div class="slide' + (i === 0 ? ' on' : '') + '">' + inner + '</div>';
+  }).join("");
+  dots.innerHTML = S.map((s, i) => '<button type="button" aria-label="Slide ' + (i + 1) + '" aria-current="' + (i === 0) + '" data-i="' + i + '"></button>').join("");
+  let cur = 0, timer;
+  function go(n){
+    cur = (n + S.length) % S.length;
+    $$(".slide", sl).forEach((el, i) => el.classList.toggle("on", i === cur));
+    $$("button", dots).forEach((el, i) => el.setAttribute("aria-current", String(i === cur)));
+    $("#heroNote").hidden = !S[cur].imp;
+  }
+  function auto(){ clearInterval(timer); if (S.length > 1 && !matchMedia("(prefers-reduced-motion:reduce)").matches) timer = setInterval(() => go(cur + 1), (P.slideSeconds || 5) * 1000); }
+  $("#slPrev").addEventListener("click", () => { go(cur - 1); auto(); });
+  $("#slNext").addEventListener("click", () => { go(cur + 1); auto(); });
+  dots.addEventListener("click", e => { const b = e.target.closest("button"); if (b) { go(+b.dataset.i); auto(); } });
+  go(0); auto();
+
+  // ---------- gallery + lightbox ----------
+  const G = C.gallery.map(g => typeof g === "string" ? {src: g} : g), lb = $("#lightbox"); let gi = 0;
+  $("#gal").innerHTML = G.map((g, i) =>
+    '<button class="gtile" type="button" data-g="' + i + '" aria-label="Open picture ' + (i + 1) + '">' +
+    (g.src ? '<img src="' + esc(g.thumb || g.src) + '" alt="' + esc(g.cap || "Gallery picture " + (i + 1)) + '" loading="lazy">' + (g.imp ? '<span class="imp">Artist\'s impression</span>' : '') : '<div class="ph">Add image: gallery-' + (i + 1) + '.jpg</div>') + '</button>').join("");
+  function showG(n){ gi = (n + G.length) % G.length; $("#lbImg").src = G[gi].src; $("#lbImg").alt = G[gi].cap || ("Gallery picture " + (gi + 1)); }
+  let pendingG = null, gateUsed = false;
+  $("#gal").addEventListener("click", e => {
+    const t = e.target.closest("[data-g]"); if (!t || !G[+t.dataset.g].src) return;
+    const n = +t.dataset.g;
+    let seen = false; try { seen = sessionStorage.getItem("popupSeen") === "1"; } catch(err){}
+    if (C.gateGallery && !seen && !gateUsed) { gateUsed = true; pendingG = n; openModal("Gallery"); return; }
+    showG(n); lb.showModal ? lb.showModal() : lb.setAttribute("open", "");
+  });
+  $("#lbPrev").addEventListener("click", () => { do { gi = (gi - 1 + G.length) % G.length; } while (!G[gi].src); showG(gi); });
+  $("#lbNext").addEventListener("click", () => { do { gi = (gi + 1) % G.length; } while (!G[gi].src); showG(gi); });
+  $("#lbClose").addEventListener("click", () => lb.close());
+  lb.addEventListener("click", e => { if (e.target === lb) lb.close(); });
+
+  // menu
+  const menu = $("#menu"), mb = $("#menuBtn");
+  mb.addEventListener("click", () => { const o = menu.classList.toggle("open"); mb.setAttribute("aria-expanded", String(o)); });
+  menu.addEventListener("click", e => { if (e.target.closest("a")) { menu.classList.remove("open"); mb.setAttribute("aria-expanded", "false"); } });
+
+  // ---------- attribution ----------
+  const KEYS = ["utm_source","utm_medium","utm_campaign","utm_term","utm_content","utm_id","gclid","gbraid","wbraid","fbclid","gad_campaignid","device","network"];
+  let attrib = {};
+  try { attrib = JSON.parse(sessionStorage.getItem("attrib") || "{}"); } catch(e){}
+  const qs = new URLSearchParams(location.search);
+  KEYS.forEach(k => { if (qs.get(k)) attrib[k] = qs.get(k); });
+  try { sessionStorage.setItem("attrib", JSON.stringify(attrib)); } catch(e){}
+  if (!attrib.landing_url) { attrib.landing_url = location.href.slice(0, 500); attrib.referrer = (document.referrer || "").slice(0, 300); }
+
+  // ---------- tracking ----------
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){ dataLayer.push(arguments); }
+  if (C.googleAdsId) {
+    const s = document.createElement("script"); s.async = true;
+    s.src = "https://www.googletagmanager.com/gtag/js?id=" + C.googleAdsId; document.head.appendChild(s);
+    gtag("js", new Date()); gtag("config", C.googleAdsId);
+  }
+  if (C.metaPixelId) {
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+    fbq("init", C.metaPixelId); fbq("track", "PageView");
+  }
+  function trackLead(id){
+    if (C.googleAdsId && C.googleAdsLeadLabel) gtag("event","conversion",{send_to: C.googleAdsId + "/" + C.googleAdsLeadLabel});
+    if (window.fbq) fbq("track","Lead",{},{eventID: id});
+  }
+  function trackClick(kind){
+    if (kind === "call" && C.googleAdsId && C.googleAdsCallLabel) gtag("event","conversion",{send_to: C.googleAdsId + "/" + C.googleAdsCallLabel});
+    if (window.fbq) fbq("track","Contact",{method: kind});
+    dataLayer.push({event: "click_" + kind});
+  }
+  document.addEventListener("click", e => { const t = e.target.closest("[data-track]"); if (t) trackClick(t.dataset.track); });
+
+  // ---------- forms ----------
+  const tpl = $("#formTpl");
+  $$("[data-wrap]").forEach(w => {
+    w.appendChild(tpl.content.cloneNode(true));
+    $("[data-t]", w).textContent = w.dataset.title || "Get price and brochure";
+  });
+  $$("select[name=unit]").forEach(s => { C.units.forEach(u => s.insertAdjacentHTML("beforeend", "<option>" + esc(u.type) + "</option>")); });
+  $$("input[name=phone]").forEach(i => i.addEventListener("input", () => { i.value = i.value.replace(/\D/g, "").slice(-10); }));
+
+  let wantBrochure = false, wantTour = false;
+  function validate(form){
+    let ok = true;
+    $$(".field", form).forEach(f => {
+      const el = $("input,select", f); if (!el || !el.required) return;
+      let good = el.value.trim() !== "";
+      if (el.name === "phone") good = /^[6-9]\d{9}$/.test(el.value.replace(/\D/g, ""));
+      f.classList.toggle("bad", !good); if (!good) ok = false;
+    });
+    return ok;
+  }
+  $$("[data-wrap] form").forEach(form => {
+    form.addEventListener("submit", async ev => {
+      ev.preventDefault();
+      const err = $(".form-error", form); err.style.display = "none";
+      if (!validate(form)) { const b = $(".field.bad input,.field.bad select", form); if (b) b.focus(); return; }
+      const fd = new FormData(form);
+      if (fd.get("company")) return;
+      const btn = $("button[type=submit]", form), label = btn.textContent;
+      btn.disabled = true; btn.textContent = "Sending...";
+      const id = "lead_" + Date.now() + "_" + Math.random().toString(36).slice(2, 8);
+      const body = new URLSearchParams();
+      fd.forEach((v, k) => { if (k !== "company") body.append(k, v); });
+      body.append("project", P.name); body.append("event_id", id); body.append("page_url", location.href.slice(0, 500));
+      Object.keys(attrib).forEach(k => body.append(k, attrib[k]));
+      try {
+        if (!C.formEndpoint) throw new Error("no-endpoint");
+        await fetch(C.formEndpoint, {method: "POST", mode: "no-cors", body});
+        trackLead(id);
+        const ok = $(".form-ok", form.parentElement);
+        const goal = fd.get("goal") || "";
+        $("[data-ok-msg]", ok).textContent = /visit/i.test(goal) ? "Your visit request is in. We will call to confirm the time." : "We will call you shortly with the price sheet and floor plans.";
+        $("[data-next-brochure]", ok).href = C.brochureUrl || wa("Hi, please send me the brochure for " + P.name + ".");
+        $("[data-next-tour]", ok).href = C.tourUrl || wa("Hi, please send me the 360 degree view link for " + P.name + ".");
+        form.style.display = "none"; ok.style.display = "block";
+        try { sessionStorage.setItem("popupSeen", "1"); } catch(e){}
+      } catch (e) {
+        btn.disabled = false; btn.textContent = label;
+        err.textContent = C.formEndpoint ? "Could not send. Check your connection and try again, or call " + C.phone + "." : "Form is not connected yet. Add the Apps Script URL in CONFIG.formEndpoint.";
+        err.style.display = "block";
+      }
+    });
+  });
+
+  // ---------- modals ----------
+  const modal = $("#modal");
+  const STYLES = ["center", "split", "sheet", "drawer"];
+  let popStyle = new URLSearchParams(location.search).get("popup") || C.popupStyle || "center";
+  if (STYLES.indexOf(popStyle) < 0) popStyle = "center";
+  $("#popImg").innerHTML = img(C.popup.image, P.name, "Add popup image");
+  $("#popHead").textContent = C.popup.headline;
+  $("#popPts").innerHTML = C.popup.points.map(x => '<li>' + esc(x) + '</li>').join("");
+  function setGoal(v){
+    $$(".chooser input", modal).forEach(i => { i.checked = i.value === v; });
+    const visit = v === "Site visit";
+    $("select[name=visit]", modal).required = visit;
+    $("[data-visit-label]", modal).textContent = visit ? "Which day suits you?" : "When would you like to visit? (optional)";
+    $("[data-submit]", modal).textContent = visit ? "Book my visit" : "Get price sheet";
+    $$(".field.bad", modal).forEach(f => f.classList.remove("bad"));
+  }
+  modal.addEventListener("change", e => { if (e.target.name === "goal") setGoal(e.target.value); });
+  $$("[data-wrap]").forEach(w => { if (!modal.contains(w)) $$(".chooser input", w).forEach(i => { i.disabled = true; }); });
+  function markStyle(){ $$("[data-ps]").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.ps === popStyle))); }
+  if (C.popupSwitcher) {
+    const sw = document.createElement("div"); sw.className = "pop-switch";
+    sw.innerHTML = '<span>Popup style</span>' + STYLES.map(k => '<button type="button" data-ps="' + k + '">' + k + '</button>').join("");
+    document.body.appendChild(sw); markStyle();
+    sw.addEventListener("click", e => { const b = e.target.closest("[data-ps]"); if (!b) return; popStyle = b.dataset.ps; markStyle(); if (modal.open) modal.close(); openModal("Style preview"); });
+  }
+  function openModal(interest, brochure, tour){
+    wantBrochure = !!brochure; wantTour = !!tour;
+    modal.className = "pop-" + popStyle;
+    const single = !!(brochure || tour);
+    modal.classList.toggle("single", single);
+    $$(".chooser input", modal).forEach(i => { i.disabled = single; });
+    if (single) {
+      $("[data-submit]", modal).textContent = brochure ? "Get the brochure" : "Open the 360° view";
+      $("select[name=visit]", modal).required = false;
+      $("[data-visit-label]", modal).textContent = "When would you like to visit? (optional)";
+    } else setGoal(/visit/i.test(interest || "") ? "Site visit" : "Price sheet and floor plans");
+    $("[data-t]", modal).textContent = brochure ? "Download the brochure" : tour ? "See the 360° view" : "How can we help?";
+    $("input[name=interest]", modal).value = interest || "";
+    if (modal.showModal) modal.showModal(); else modal.setAttribute("open", "");
+    setTimeout(() => { const f = $("input[name=name]", modal); if (f) f.focus(); }, 50);
+  }
+  document.addEventListener("click", e => {
+    const o = e.target.closest("[data-open]"); if (o) openModal(o.dataset.open, o.hasAttribute("data-brochure"), o.hasAttribute("data-tour"));
+  });
+  $("#modalClose").addEventListener("click", () => modal.close());
+  modal.addEventListener("click", e => { if (e.target === modal) modal.close(); });
+  modal.addEventListener("close", () => {
+    if (pendingG !== null) { const n = pendingG; pendingG = null; showG(n); lb.showModal ? lb.showModal() : lb.setAttribute("open", ""); }
+  });
+  // form interest for inline forms
+  $$("[data-wrap]").forEach(w => { if (!modal.contains(w)) $("input[name=interest]", w).value = "Page form"; });
+
+  // optional intro popup, then the delayed lead popup
+  const intro = $("#introModal");
+  if (C.intro.enabled) {
+    $("#introTitle").textContent = C.intro.title;
+    $("#introList").innerHTML = C.intro.points.map(p => '<li>' + esc(p) + '</li>').join("");
+    let seen = false; try { seen = sessionStorage.getItem("introSeen") === "1"; } catch(e){}
+    if (!seen) setTimeout(() => { intro.showModal(); try { sessionStorage.setItem("introSeen", "1"); } catch(e){} }, 500);
+    $("#introClose").addEventListener("click", () => intro.close());
+    $("#introGo").addEventListener("click", () => { intro.close(); openModal("Intro popup"); });
+  }
+  if (C.popupDelaySeconds > 0) {
+    let seen = false; try { seen = sessionStorage.getItem("popupSeen") === "1"; } catch(e){}
+    if (!seen) setTimeout(() => { if (!modal.open && !intro.open) { openModal("Auto popup"); try { sessionStorage.setItem("popupSeen", "1"); } catch(e){} } }, C.popupDelaySeconds * 1000);
+  }
+
+  // ---------- v3: trust, chips, FAQ, EMI ----------
+  const unitsTxt = C.units.map(u => u.type).join(", ").replace(/, ([^,]*)$/, " and $1");
+  $("#chips").innerHTML = ["Byculla (W), South Mumbai", unitsTxt + " homes", "By " + P.by].map(c => '<span>' + esc(c) + '</span>').join("");
+  $("#trust").innerHTML = C.trust.map(t => '<div class="t"><b>' + esc(t[0]) + '</b><span>' + esc(t[1]) + '</span></div>').join("");
+  $("#faqList").innerHTML = C.faqs.map((f, i) => '<details' + (i === 0 ? ' open' : '') + '><summary>' + esc(f[0]) + '</summary><ul><li style="display:block;color:var(--slate)">' + esc(f[1]) + '</li></ul></details>').join("");
+
+  const E = C.emi, inr = n => "₹" + Math.round(n).toLocaleString("en-IN");
+  const sets = { ePrice: [E.min, E.max, 0.1, E.price], eDown: [10, 60, 5, E.down], eRate: [6, 12, 0.1, E.rate], eYears: [5, 30, 1, E.tenure] };
+  Object.keys(sets).forEach(id => { const [mn, mx, st, v] = sets[id], el = $("#" + id); el.min = mn; el.max = mx; el.step = st; el.value = v; el.addEventListener("input", calc); });
+  function calc(){
+    const price = +$("#ePrice").value * 1e7, dp = +$("#eDown").value / 100, rt = +$("#eRate").value / 1200, n = +$("#eYears").value * 12;
+    const loan = price * (1 - dp), emi = rt === 0 ? loan / n : loan * rt * Math.pow(1 + rt, n) / (Math.pow(1 + rt, n) - 1);
+    $("#vPrice").textContent = "₹ " + (+$("#ePrice").value).toFixed(1) + " Cr"; $("#vDown").textContent = $("#eDown").value + "%";
+    $("#vRate").textContent = (+$("#eRate").value).toFixed(1) + "%"; $("#vYears").textContent = $("#eYears").value + " years";
+    $("#oEmi").innerHTML = inr(emi) + "<small> / month</small>"; $("#oLoan").textContent = inr(loan); $("#oInt").textContent = inr(emi * n - loan); $("#oDown").textContent = inr(price * dp);
+    $("#emiWa").href = wa("Hi, I checked the EMI for " + P.name + ". Home price ₹" + (+$("#ePrice").value).toFixed(1) + " Cr, loan " + inr(loan) + ", EMI about " + inr(emi) + " per month at " + (+$("#eRate").value).toFixed(1) + "% for " + $("#eYears").value + " years. Please share the pricing and availability.");
+  }
+  calc();
+
+  // ---------- v3: keyword personalisation ----------
+  (function(){
+    const term = (attrib.utm_term || qs.get("kw") || "").toLowerCase();
+    const m = term.match(/(\d(?:\.\d)?)\s*bhk/);
+    if (!m) return;
+    const unit = C.units.find(u => u.type.toLowerCase() === m[1] + " bhk");
+    if (!unit) return;
+    $("#pTag").textContent = unit.type + " residences in Byculla, South Mumbai";
+    $$("select[name=unit]").forEach(sel => { sel.value = unit.type; });
+    $$("[data-wa]").forEach(a => a.href = wa("Hi, I am interested in a " + unit.type + " at " + P.name + ". Please share the price and floor plan."));
+  })();
+
+  // ---------- v3: tracking events ----------
+  function evt(name){ dataLayer.push({event: name}); if (C.googleAdsId) gtag("event", name); }
+  let started = false;
+  document.addEventListener("focusin", e => { if (!started && e.target.closest && e.target.closest("[data-wrap] form")) { started = true; evt("form_start"); } });
+  const marks = { scroll_50: .5, scroll_90: .9 }, hit = {};
+  addEventListener("scroll", () => {
+    const d = document.documentElement, p = (scrollY + innerHeight) / d.scrollHeight;
+    Object.keys(marks).forEach(k => { if (!hit[k] && p >= marks[k]) { hit[k] = 1; evt(k); } });
+  }, {passive: true});
+  if ("IntersectionObserver" in window) {
+    const seenSec = new IntersectionObserver(es => es.forEach(en => { if (en.isIntersecting) { evt("view_" + en.target.id); seenSec.unobserve(en.target); } }), {threshold: .35});
+    ["price", "emi", "gallery", "location", "faq"].forEach(id => { const el = document.getElementById(id); if (el) seenSec.observe(el); });
+  }
+
+  // ---------- v3: exit intent, swipe, keyboard ----------
+  if (C.exitIntent && matchMedia("(hover:hover) and (pointer:fine)").matches) {
+    document.addEventListener("mouseout", e => {
+      if (e.clientY > 0 || e.relatedTarget) return;
+      let seen = false; try { seen = sessionStorage.getItem("popupSeen") === "1"; } catch(err){}
+      if (!seen && !modal.open && !intro.open && !lb.open) { openModal("Exit intent"); try { sessionStorage.setItem("popupSeen", "1"); } catch(err){} }
+    });
+  }
+  let tx = 0;
+  lb.addEventListener("touchstart", e => { tx = e.changedTouches[0].clientX; }, {passive: true});
+  lb.addEventListener("touchend", e => { const dx = e.changedTouches[0].clientX - tx; if (Math.abs(dx) > 50) (dx < 0 ? $("#lbNext") : $("#lbPrev")).click(); });
+  document.addEventListener("keydown", e => { if (!lb.open) return; if (e.key === "ArrowRight") $("#lbNext").click(); if (e.key === "ArrowLeft") $("#lbPrev").click(); });
+
+  // ---------- v3: reveal on scroll ----------
+  const rvEls = $$("section.block .wrap > *, .band .wrap > *");
+  if ("IntersectionObserver" in window && !matchMedia("(prefers-reduced-motion:reduce)").matches) {
+    const io = new IntersectionObserver(es => es.forEach(en => { if (en.isIntersecting) { en.target.classList.add("in"); io.unobserve(en.target); } }), {threshold: .08});
+    rvEls.forEach(el => { el.classList.add("rv"); io.observe(el); });
+  }
+
+})();
+</script>
+</body>
+</html>
